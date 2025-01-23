@@ -1,0 +1,15 @@
+/*********************************************************************/
+/* Autor        : Aristoteles Garrido                                */
+/* Fecha        : 22/ENE/2025                                        */
+/* Proposito    : Insertar usuarios de prueba                        */
+/* Tarea        : D-01                                               */
+/*********************************************************************/
+
+USE principal;
+
+INSERT INTO user (us_id, us_user, us_name, us_lastname)
+VALUES 
+    (1, 'bwilson', 'Brian', 'Wilson'),
+    (2, 'mperez', 'Martin', 'Perez'),
+    (3, 'pgarcia', 'Paul', 'García'),
+    (4, 'jarosemena', 'Juan', 'Arosemena');

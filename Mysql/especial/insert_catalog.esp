@@ -1,0 +1,15 @@
+/*********************************************************************/
+/* Autor        : Aristoteles Garrido                                */
+/* Fecha        : 22/ENE/2025                                        */
+/* Proposito    : Insertar el catalogo de estados de las tareas      */
+/* Tarea        : D-01                                               */
+/*********************************************************************/
+
+USE principal;
+
+INSERT INTO status_catalog (sc_id, sc_description)
+VALUES 
+    ('P', 'Pendiente'),
+    ('I', 'Iniciado'),
+    ('F', 'Finalizado'),
+    ('C', 'Cancelado');
