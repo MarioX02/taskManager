@@ -10,10 +10,8 @@
 /*                                                  */
 /* FECHA        AUTOR       RAZON                   */
 /* 23/ENE/2025  A.Garrido   Emisión Inicial         */
+/* 23/ENE/2025  A.Garrido   Bugfix                  */
 /****************************************************/
 
 CREATE DATABASE principal;
 USE principal;
-
-);
-
